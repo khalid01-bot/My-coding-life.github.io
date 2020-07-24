@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family:"Times New Roman", Times, serif;
+  
+}
+
+.hdr{
+	width:100%;
+	min-height:15vh;
+	color:white;
+	font-size:30px;
+	padding-left:30px;
+	background:#222;
+	display:flex;
+	align-items:center;
+	letter-spacing:2px;
+	word-spacing:5px;
+}
+
+.container{
+	padding:10px;
+	min-width:100%;
+	min-height:100vh;
+	background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/25/startup-593327_640.jpg);
+	background-size:auto;
+	background-attachment:fixed;
+	
+}
+
+.wraper{
+	color:#000;
+	font-weight:500;
+	line-height:40px;
+	background:rgba(240,240,240,0.5);
+	margin:20px 5px 20px 5px;
+	padding-bottom:10px;
+	border-radius:2px;
+	box-shadow:0 0 2px 1px rgba(100,100,100,0.2);
+}
+
+.txt {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin:20px 0px;
+  padding: 10px 10px 5px 10px;
+  word-spacing: 3px;
+}
+
+.content{
+  font-size:18px;
+  font-family:"Times New Roman", Times, serif;
+  margin:5px 10px;
+}
+
+.ordr_lst{
+  margin:10px 20px;
+}
+
+.ordr_lst li{
+  margin:5px ;
+  padding:0px 5px;
+  font-size:16px;
+  font-weight:600;
+}
+
+.ordr_lst li:nth-child(even){
+	background:#fff;
+}
+
+.ordr_lst li:nth-child(odd){
+	background:#ddd;
+}
+
+hr{
+	hight:2px;
+	border:1px solid #888 inset;
+}
+
+
+
+
+
+
+
+
+
+
+.foot {
+  width: 100vw;
+  height: 40px;
+  background: red;
+  color: #eee;
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height: 40px;
+  text-align: center;
+}
