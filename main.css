@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+
+
+.wraper {
+  font-family: monospace;
+  padding: 30px 50px;
+  font-size: 16px;
+  letter-spacing: ;
+  word-spacing: 6px;
+  font-weight: 550;
+  text-align: center;
+  line-height: 30px;
+}
+
+.txt {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 6px 40px;
+  background: rgba(255, 255, 255, 0.4);
+  word-spacing: 4px;
+}
+
+.txt1 {
+  margin: 20px 10px 40px 10px;
+}
+
+.wraper.dark {
+  background: #111;
+  color: #eee;
+}
+
+.wraper.light {
+  background: #eee;
+  color: #111;
+}
+
+.bg {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 5px 20px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_640.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg1 {
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+  padding: 5px 20px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/25/startup-593327_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg2 {
+  width: 100%;
+  min-height: 350px;
+  text-align: center;
+  padding: 5px 20px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/03/24/12/42/woman-687560__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg3 {
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+  padding: 5px 20px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: cyan;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 6px 30px;
+  background: rgba(255, 255, 255, 1);
+  word-spacing: 4px;
+  border: 2px solid cyan;
+  border-radius: 32px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 5px cyan inset;
+}
+
+.foot {
+  width: 100vw;
+  height: 40px;
+  background: red;
+  color: #eee;
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height: 40px;
+  text-align: center;
+}
