@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family:"Times New Roman", Times, serif;
+}
+
+.container{
+	padding:10px;
+	min-width:100%;
+	min-height:100vh;
+	background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/25/startup-593327_640.jpg);
+	background-size:cover;
+	-webkit-background-attachment:fixed;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+.foot {
+  width: 100vw;
+  height: 40px;
+  background: red;
+  color: #eee;
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height: 40px;
+  text-align: center;
+}
